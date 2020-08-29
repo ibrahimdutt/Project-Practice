@@ -1,0 +1,190 @@
+
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+p{
+    color:  gray;
+    font-size: small;
+}
+
+/* Headings */
+
+.big-heading{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
+}
+ 
+/* Containers */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: whitesmoke;
+}
+
+.white-section{
+     background-color: #fff;
+}
+
+    /* Navigation Bar */
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0 0 2rem;
+}
+ .nav-item{
+     padding-left: 18px;
+     padding-right: 18px;
+ }
+
+ .nav-link{
+     font-size: 1.1rem;
+     font-family: "Montserrat-Light";
+ }
+
+
+   /* Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    position: absolute;
+    right: 30%;
+    width: 60%;
+    transform:rotate(25deg);  
+    -webkit-transform:rotate(25deg); /* Safari and Chrome */
+}
+
+    /* Title */
+
+
+    #title{
+        text-align: left;
+    }
+    
+    #title .container-fluid{
+        padding: 3% 15% 7%;
+    }
+
+  /* Features */
+ 
+#features{
+       position: relative;
+}
+
+.feature-box{
+    text-align: center
+}
+
+
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 15px;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+   /* Testimonials */
+#testimonials{
+    background-color: #ef8172;
+    padding: 7% 15%;
+}
+
+#testimonials img{
+    border-radius: 100%;
+    width: 15%;
+    height: 15%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+}
+
+
+   
+    /* Press */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 10px;
+}
+
+   /* Pricing */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.price-text{
+    font-size: 3rem;
+}
+
+
+/* Call to Action  */
+
+
+.button-bottom{
+    margin: 7% 1.5%;
+}
+
+     /* Footer */
+
+
+
+#footer p{
+    color: gray;
+}
+
+
+  /* media query */
+
+  @media (max-width: 1028px){
+      .title-image{
+          position: static;
+          transform:rotate(0deg);  
+          -webkit-transform:rotate(0deg);
+      }
+      #title{
+          text-align: center;
+      }
+     
+  }
+
+
